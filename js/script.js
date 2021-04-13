@@ -77,8 +77,14 @@ for (var i = 0; i < arrayStudenti.length; i++){
     //console.log(thisStudente);
 
     //thisStudente sono gli oggetti
-    //uso ciclo for-in per iterare gli oggetti
+    //conosco le chiavi dei valori che mi servono
+    //li stampo
 
+    console.log(thisStudente.nome);
+    console.log(thisStudente.cognome);
+
+
+    /*
     for( var key in thisStudente){
         //console.log('chiave:', key);
         //console.log('valore:', thisStudente[key]);
@@ -91,6 +97,7 @@ for (var i = 0; i < arrayStudenti.length; i++){
         }else if(key == 'cognome'){
             console.log(thisStudente[key]);
         }
-    }
+         
+    }*/
 }
 
